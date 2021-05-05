@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+        .left {
+            background-color: aquamarine;
+            border: black solid 1px;
+            border-radius: 10px;
+            width: 70%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+        
+        .right {
+            background-color: darkgray;
+            border: black solid 1px;
+            border-radius: 10px;
+            width: 70%;
+            margin-left: 22%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+    </style>
+
+    <script>
+        function toBottom() {
+            var el = document.getElementById("bottom");
+            el.scrollIntoView();
+        }
+    </script>
+
+</head><body onload="toBottom()">
